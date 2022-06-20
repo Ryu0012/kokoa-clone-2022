@@ -1,3 +1,8 @@
+.settings-list:last-child {
+  border-top: 3px solid rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
 .settings__setting {
   padding: 20px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -5,6 +10,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.settings__setting:last-child {
+  border-bottom: none;
 }
 
 .settings__setting i {

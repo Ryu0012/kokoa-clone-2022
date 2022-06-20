@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Nunito:wght@500;600;700&display=swap");
 
 @import "reset.css";
 @import "variables.css";
@@ -23,9 +23,14 @@
 
 body {
   color: #2e363e;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 .main-screen {
   padding: 0px var(--horizontal-space);
+}
+
+.main-screen,
+#friends-display-link {
+  margin-top: 120px;
 }

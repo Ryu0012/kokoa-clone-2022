@@ -1,5 +1,13 @@
 .user-component {
   justify-content: space-between;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease-in-out;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.user-component:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .user-component,
